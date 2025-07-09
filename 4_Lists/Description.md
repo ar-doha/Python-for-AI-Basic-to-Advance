@@ -8,4 +8,27 @@ To create a list, type the list within square bracket `[]`, with your content in
 
 L = ["The Bodyguard", 7.0, 1992]
 L 
+
+==> ['The Bodyguard', 7.0, 1992]
 ```
+
+We can use negative and regular indexing with a list:
+
+# Print the elements on each index
+
+print('the same element using negative and positive indexing:\n Postive:',L[0],
+'\n Negative:' , L[-3]  )
+print('the same element using negative and positive indexing:\n Postive:',L[1],
+'\n Negative:' , L[-2]  )
+print('the same element using negative and positive indexing:\n Postive:',L[2],
+'\n Negative:' , L[-1]  )
+
+==> the same element using negative and positive indexing:
+ Postive: The Bodyguard 
+ Negative: The Bodyguard
+the same element using negative and positive indexing:
+ Postive: 7.0 
+ Negative: 7.0
+the same element using negative and positive indexing:
+ Postive: 1992 
+ Negative: 1992
