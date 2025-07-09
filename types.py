@@ -1,4 +1,0 @@
-# Integer
-print(11)
-
-
